@@ -1,0 +1,23 @@
+# Python compilation archives
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables (CRITICAL: Contains API Keys)
+.env
+
+# Vector Database (Local persistence files)
+data/chroma_db/
+
+# Uploaded User Documents
+data/uploads/
+
+# IDE settings (Optional but recommended)
+.vscode/
+.idea/
+.DS_Store

@@ -165,7 +165,8 @@ The API will be accessible at:
 
 ---
 
-##📂 Project Structure```text
+##📂 Project Structure
+```
 rag_qa/
 ├── data/                   # Storage for uploaded files & vector DB
 ├── .env                    # API Keys (GitIgnored)

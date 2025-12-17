@@ -96,10 +96,9 @@ The API will be accessible at:
   "message": "Successfully processed sample_doc.pdf",
   "chunks_count": 15
 }
-
 ```
 
-###2. Query Document**Endpoint:** `POST /query`
+### 2. Query Document**Endpoint:** `POST /query`
 
 **Description:** Ask a question about the uploaded document. Returns the answer and the source text blocks used.
 
@@ -109,7 +108,6 @@ The API will be accessible at:
 {
   "question": "What are the main objectives listed in the document?"
 }
-
 ```
 
 
@@ -127,7 +125,7 @@ The API will be accessible at:
 
 ```
 
-###3. Performance Report**Endpoint:** `GET /report`
+### 3. Performance Report**Endpoint:** `GET /report`
 
 **Description:** Returns evaluation metrics for the RAG pipeline.
 
@@ -138,12 +136,11 @@ The API will be accessible at:
   "context_precision": 0.9,
   "faithfulness": 0.85
 }
-
 ```
 
 ---
 
-##🧪 Testing with PostmanYou can use Postman to test the workflow without writing code.
+## 🧪 Testing with PostmanYou can use Postman to test the workflow without writing code.
 
 1. **Upload File:**
 * Select `POST` request to `http://127.0.0.1:8000/upload`.
@@ -163,7 +160,7 @@ The API will be accessible at:
 
 ---
 
-##📂 Project Structure
+## 📂 Project Structure
 ```
 rag_qa/
 ├── data/                   # Storage for uploaded files & vector DB

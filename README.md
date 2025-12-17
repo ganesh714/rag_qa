@@ -179,3 +179,6 @@ rag_qa/
 
 ```
 
+## 🎥 Demo Video
+
+[![Watch the video](https://1drv.ms/v/c/2b08b9b6f86447ff/IQA6J9s9QDvSSLpTpOElRYBeAV-c_Kb2jZ4qXXn4EqUwGUs)]

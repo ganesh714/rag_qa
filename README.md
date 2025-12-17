@@ -182,4 +182,4 @@ rag_qa/
 
 ## 🎥 Demo Video
 
-[https://1drv.ms/v/c/2b08b9b6f86447ff/IQA6J9s9QDvSSLpTpOElRYBeAV-c_Kb2jZ4qXXn4EqUwGUs]
+[https://drive.google.com/file/d/1_X_Hmz8X3j8c76i7qoLNylOMKpOQXyju/view?usp=drive_link]

@@ -29,12 +29,12 @@ The system processes uploaded files, chunks the text, creates vector embeddings,
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/ganesh714/rag_qa](https://github.com/ganesh714/rag_qa)
+git clone https://github.com/ganesh714/rag_qa
 cd rag_qa
 
 ```
 
-###2. Set Up Virtual EnvironmentIt is recommended to use a virtual environment to manage dependencies.
+### 2. Set Up Virtual EnvironmentIt is recommended to use a virtual environment to manage dependencies.
 
 **Windows:**
 
@@ -52,26 +52,24 @@ source venv/bin/activate
 
 ```
 
-###3. Install Dependencies```bash
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-
 ```
 
-###4. Configure Environment Variables1. Create a `.env` file in the root directory.
+### 4. Configure Environment Variables1. Create a `.env` file in the root directory.
 2. Add your Google Gemini API key (Get a free key from [Google AI Studio](https://aistudio.google.com/)).
 
 ```env
 GEMINI_API_KEY=your_actual_api_key_here
-
 ```
 
 ---
 
-##🏃‍♂️ Running the ApplicationStart the FastAPI server using Uvicorn:
+## 🏃‍♂️ Running the ApplicationStart the FastAPI server using Uvicorn:
 
 ```bash
 uvicorn main:app --reload
-
 ```
 
 The API will be accessible at:
